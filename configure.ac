@@ -1403,7 +1403,7 @@ AC_MSG_CHECKING([for local zlib source])
 dnl zlib is needed for language level 3, and libpng
 # we must define ZLIBDIR regardless because png.mak does a -I$(ZLIBDIR)
 # this seems a harmless default
-ZLIBDIR=src
+ZLIBDIR=$includedir
 AUX_SHARED_ZLIB=
 ZLIBCFLAGS=""
 
